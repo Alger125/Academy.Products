@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Academy.Products.Application/1.0.0": {
+        "dependencies": {
+          "Academy.Products.Domain": "1.0.0",
+          "Academy.Products.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Academy.Products.Application.dll": {}
+        }
+      },
+      "Academy.Products.Domain/1.0.0": {
+        "runtime": {
+          "Academy.Products.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Academy.Products.Infrastructure/1.0.0": {
+        "runtime": {
+          "Academy.Products.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Academy.Products.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Academy.Products.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Academy.Products.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

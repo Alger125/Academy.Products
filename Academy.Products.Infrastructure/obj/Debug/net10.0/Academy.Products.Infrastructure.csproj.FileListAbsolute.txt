@@ -1,0 +1,12 @@
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.Infrastructure\bin\Debug\net10.0\Academy.Products.Infrastructure.deps.json
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.Infrastructure\bin\Debug\net10.0\Academy.Products.Infrastructure.dll
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.Infrastructure\bin\Debug\net10.0\Academy.Products.Infrastructure.pdb
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.Infrastructure\obj\Debug\net10.0\Academy.Products.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.Infrastructure\obj\Debug\net10.0\Academy.Products.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.Infrastructure\obj\Debug\net10.0\Academy.Products.Infrastructure.AssemblyInfo.cs
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.Infrastructure\obj\Debug\net10.0\Academy.Products.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.Infrastructure\obj\Debug\net10.0\Academy.Products.Infrastructure.sourcelink.json
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.Infrastructure\obj\Debug\net10.0\Academy.Products.Infrastructure.dll
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.Infrastructure\obj\Debug\net10.0\refint\Academy.Products.Infrastructure.dll
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.Infrastructure\obj\Debug\net10.0\Academy.Products.Infrastructure.pdb
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.Infrastructure\obj\Debug\net10.0\ref\Academy.Products.Infrastructure.dll
