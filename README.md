@@ -15,3 +15,9 @@ mientras que los administradores gestionan el inventario.
 - Implementación de API REST con C# y .NET.
 - Uso de patrón CQRS para queries y commands.
 - Manejo de errores y códigos HTTP estandarizados.
+
+## Flujo final
+- Desarrollas en feature/... → PR hacia develop.
+- De develop → PR hacia QA.
+- De QA → PR hacia prd.
+- De prd → PR hacia main (producción estable).
