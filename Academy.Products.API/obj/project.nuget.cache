@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wgTPwMUb2AQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.API\\Academy.Products.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gd_dl\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0-rc.1.25451.107\\microsoft.aspnetcore.openapi.10.0.0-rc.1.25451.107.nupkg.sha512",
+    "C:\\Users\\gd_dl\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
