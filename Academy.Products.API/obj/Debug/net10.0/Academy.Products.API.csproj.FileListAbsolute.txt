@@ -38,3 +38,4 @@ C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.API\obj\Debug\
 C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.API\obj\Debug\net10.0\Academy.Products.API.pdb
 C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.API\obj\Debug\net10.0\Academy.Products.API.genruntimeconfig.cache
 C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.API\obj\Debug\net10.0\ref\Academy.Products.API.dll
+C:\Users\gd_dl\OneDrive\Desktop\Academy.Products\Academy.Products.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
