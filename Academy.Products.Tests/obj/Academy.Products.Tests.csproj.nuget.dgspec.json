@@ -1,42 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Tests\\Academy.Products.Tests.csproj": {}
+    "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Tests\\Academy.Products.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Application\\Academy.Products.Application.csproj": {
+    "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Application\\Academy.Products.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Application\\Academy.Products.Application.csproj",
+        "projectUniqueName": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Application\\Academy.Products.Application.csproj",
         "projectName": "Academy.Products.Application",
-        "projectPath": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Application\\Academy.Products.Application.csproj",
-        "packagesPath": "C:\\Users\\gd_dl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Application\\obj\\",
+        "projectPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Application\\Academy.Products.Application.csproj",
+        "packagesPath": "C:\\Users\\jportugu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gd_dl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jportugu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj": {
-                "projectPath": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj"
+              "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj": {
+                "projectPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj"
               },
-              "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Infrastructure\\Academy.Products.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Infrastructure\\Academy.Products.Infrastructure.csproj"
+              "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Infrastructure\\Academy.Products.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Infrastructure\\Academy.Products.Infrastructure.csproj"
               }
             }
           }
@@ -50,12 +44,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -72,32 +71,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj": {
+    "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj",
         "projectName": "Academy.Products.Domain",
-        "projectPath": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj",
-        "packagesPath": "C:\\Users\\gd_dl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Domain\\obj\\",
+        "projectPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj",
+        "packagesPath": "C:\\Users\\jportugu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gd_dl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jportugu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -115,8 +108,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -137,32 +129,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Infrastructure\\Academy.Products.Infrastructure.csproj": {
+    "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Infrastructure\\Academy.Products.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Infrastructure\\Academy.Products.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Infrastructure\\Academy.Products.Infrastructure.csproj",
         "projectName": "Academy.Products.Infrastructure",
-        "projectPath": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Infrastructure\\Academy.Products.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\gd_dl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Infrastructure\\Academy.Products.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jportugu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gd_dl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jportugu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -180,8 +166,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -202,40 +187,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Tests\\Academy.Products.Tests.csproj": {
+    "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Tests\\Academy.Products.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Tests\\Academy.Products.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Tests\\Academy.Products.Tests.csproj",
         "projectName": "Academy.Products.Tests",
-        "projectPath": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Tests\\Academy.Products.Tests.csproj",
-        "packagesPath": "C:\\Users\\gd_dl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Tests\\obj\\",
+        "projectPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Tests\\Academy.Products.Tests.csproj",
+        "packagesPath": "C:\\Users\\jportugu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gd_dl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jportugu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Application\\Academy.Products.Application.csproj": {
-                "projectPath": "C:\\Users\\gd_dl\\OneDrive\\Desktop\\Academy.Products\\Academy.Products.Application\\Academy.Products.Application.csproj"
+              "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Application\\Academy.Products.Application.csproj": {
+                "projectPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Application\\Academy.Products.Application.csproj"
               }
             }
           }
@@ -249,8 +228,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -285,7 +263,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
