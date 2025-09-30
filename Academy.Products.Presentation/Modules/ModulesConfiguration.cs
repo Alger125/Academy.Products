@@ -6,6 +6,8 @@ public class ModulesConfiguration
 {
     public static void Configure(WebApplication app)
     {
-       app.AddProductModules(); 
+        app.AddProductModules();
     }
+    
+    
 }

@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Academy.Products.Tests.Application.QueriesHandles.GetProductsDetailsQuery
-{
-    public class GetProductsDetailsQueryHandlerTest
+
+namespace Academy.Products.Tests.Application.QueriesHandler.GetProductsDetailsQuery;
+
+    public class MockProductsRepository
     {
         /*Tipos de pruebas unitarias 
         [Fact]
@@ -107,4 +104,3 @@ namespace Academy.Products.Tests.Application.QueriesHandles.GetProductsDetailsQu
             // Assert
         }
     }
-}

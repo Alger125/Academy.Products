@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Productos\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj",
       "projectName": "Academy.Products.Domain",
-      "projectPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj",
+      "projectPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Productos\\Academy.Products\\Academy.Products.Domain\\Academy.Products.Domain.csproj",
       "packagesPath": "C:\\Users\\jportugu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Academy.Products\\Academy.Products.Domain\\obj\\",
+      "outputPath": "C:\\Users\\jportugu\\OneDrive - Capgemini\\Documentos\\E-commerce\\Productos\\Academy.Products\\Academy.Products.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jportugu\\AppData\\Roaming\\NuGet\\NuGet.Config"
