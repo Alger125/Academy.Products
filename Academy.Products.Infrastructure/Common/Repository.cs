@@ -1,45 +1,47 @@
 using Academy.Products.Domain.Common.EntitiesBase;
-using Academy.Products.Infrastructure.Context;
+using Academy.Products.Infrastructure.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace Academy.Products.Infrastructure.Common;
 
-public abstract class Repository<TEntity, TEntityId>(ApplicationDbContextObjects dbContext)
-    where TEntity : Entity <TEntityId>
+public abstract class Repository<TEntity, TEntityId>
+    where TEntity : Entity<TEntityId>
     where TEntityId : class
 {
-    protected readonly ApplicationDbContextObjects DbContext = dbContext;
+    protected readonly ApplicationDbContext Dbcontext;
 
-    /*
-
-    public virtual Task<TEntity?> GetByIdAsync(TEntity id)
+    protected Repository(ApplicationDbContext dbcontext)
     {
-        return DbContext.Set<TEntity>().SingleOrDefaultAsync(p => p.Id == id);
+        Dbcontext = dbcontext;
     }
 
-    public virtual IQueryable<TEntity> GetAllAsync()
+    public virtual async Task<TEntity> GetByIdAsync(TEntityId id)
     {
-        return DbContext.Set<TEntity>().AsQueryable();
+        return await Dbcontext.Set<TEntity>().FindAsync(id);
     }
 
-    public void Add(TEntity entity)
+    public virtual IQueryable<TEntity> GetAll()
     {
-        DbContext.Set<TEntity>().Add(entity);
+        return Dbcontext.Set<TEntity>().AsQueryable();
     }
 
-    public void Update(TEntity entity)
+    public virtual void Add(TEntity entity)
     {
-        DbContext.Set<TEntity>().Update(entity);
+        Dbcontext.Set<TEntity>().Add(entity);
     }
 
-    public void Remove(TEntity entity)
+    public virtual void Update(TEntity entity)
     {
-        DbContext.Set<TEntity>().Remove(entity);
+        Dbcontext.Set<TEntity>().Update(entity);
     }
 
-    public Task SaveChangesAsync(CancellationToken cancellationToken)
+    public virtual void Remove(TEntity entity)
     {
-        return DbContext.SaveChangesAsync(cancellationToken);
+        Dbcontext.Set<TEntity>().Remove(entity);
     }
-    */
+    
+    public virtual async Task<int> SaveChangesAsync( CancellationToken cancellationToken = default)
+    {
+        return await Dbcontext.SaveChangesAsync(cancellationToken);
+    }
 }

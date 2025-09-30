@@ -18,9 +18,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Academy.Products.Presentation\Academy.Products.Presentation.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Academy.Products.Infrastructure\Academy.Products.Infrastructure.csproj" />
   </ItemGroup>
 

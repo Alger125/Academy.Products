@@ -1,8 +1,5 @@
 using Academy.Products.Domain.Entities.ProductEntity;
-using Academy.Products.Domain.Common.IdTypes;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using Academy.Products.Infrastructure.Common.Options;
 using Academy.Products.Infrastructure.Persistence.Configuration;
 
 namespace Academy.Products.Infrastructure.Persistence.Context;

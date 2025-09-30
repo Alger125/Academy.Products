@@ -11,9 +11,8 @@ public class Product : EntityBase<IntEntityId>, IAuditable
     public string name { get; set; }
     public string description { get; set; } 
     public decimal price { get; set; }
-    public bool stock { get; set; }
-    public string category { get; set; } 
-    public string imageURL { get; set; }
+    public int stock { get; set; }
+    public string imageUrl { get; set; }
 
 }
 

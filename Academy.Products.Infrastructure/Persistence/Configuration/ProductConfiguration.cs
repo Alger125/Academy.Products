@@ -1,4 +1,5 @@
 using Academy.Products.Domain.Common.EntitiesBase;
+using Academy.Products.Domain.Common.IdTypes;
 using Academy.Products.Domain.Entities.ProductEntity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -10,9 +11,15 @@ public class ProductConfiguration : EntityTypeConfiguration<Product>
 {
     public override void Map(EntityTypeBuilder<Product> builder)
     {
-        builder.ToTable("Products");
+        builder.ToTable("Productos");
 
         builder.HasKey(e => e.Id);
+
+        builder.Property(e => e.Id)
+            .HasConversion(
+                id => id.Value,
+                value => new IntEntityId(value)
+            ).ValueGeneratedOnAdd();
 
         builder.Property(e => e.name)
             .IsRequired()
