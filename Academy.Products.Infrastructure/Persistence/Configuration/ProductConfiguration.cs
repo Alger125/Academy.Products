@@ -21,7 +21,7 @@ public class ProductConfiguration : EntityTypeConfiguration<Product>
                 value => new IntEntityId(value)
             ).ValueGeneratedOnAdd();
 
-        builder.Property(e => e.name)
+        builder.Property(e => e.Name)
             .IsRequired()
             .HasMaxLength(100);
 

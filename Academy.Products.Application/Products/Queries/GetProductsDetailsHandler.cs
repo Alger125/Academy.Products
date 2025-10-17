@@ -28,8 +28,15 @@ public class GetProductsDetailsHandler : IQueryHandler<GetProductsDetailsQuery, 
     }
 
     public async Task<Result<GetProductsDetailQueryResponse>> Handle(GetProductsDetailsQuery request, CancellationToken cancellationToken)
-    {
-        var product = await _productRepository.GetProductsDetails(request.productId);
+    {   
+        // Validar entrada
+        if (request.productId <= 0)
+        {
+            return Result<GetProductsDetailQueryResponse>.Failure("Invalid product ID");
+        }
+
+        // Usar objeto tipado (estándar de código)
+        GetProductsDetailModel product = await _productRepository.GetProductsDetails(request.productId);
         if (product == null)
         {
             return Result<GetProductsDetailQueryResponse>.Failure("Product not found");

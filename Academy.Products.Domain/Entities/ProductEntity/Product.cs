@@ -8,11 +8,11 @@ public class Product : EntityBase<IntEntityId>, IAuditable
 {  
     // Ya hereda la propiedad ID
     // public int productId { get; set; }
-    public string name { get; set; }
-    public string description { get; set; } 
+    public string Name { get; set; } = string.Empty;
+    public string description { get; set; } = string.Empty;
     public decimal price { get; set; }
     public int stock { get; set; }
-    public string imageUrl { get; set; }
+    public string imageUrl { get; set; } = string.Empty;
 
 }
 

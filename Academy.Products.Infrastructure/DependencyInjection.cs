@@ -1,5 +1,4 @@
 ﻿using Academy.Products.Infrastructure.InjectionManager;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Academy.Products.Infrastructure;

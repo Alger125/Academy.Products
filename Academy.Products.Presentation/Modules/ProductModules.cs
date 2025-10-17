@@ -25,7 +25,7 @@ namespace Academy.Products.Presentation.Modules;
             ISender sender,
             CancellationToken cancellationToken)
     {
-        GetProductsDetailsQuery query = new GetProductsDetailsQuery(productId);
+        GetProductsDetailsQuery query = new(productId);
         var result = await sender.Send(query, cancellationToken);
 
         if (!result.IsSuccess)
