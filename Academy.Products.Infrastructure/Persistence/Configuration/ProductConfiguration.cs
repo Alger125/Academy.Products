@@ -28,6 +28,10 @@ public class ProductConfiguration : EntityTypeConfiguration<Product>
         builder.Property(e => e.description)
             .HasMaxLength(500);
 
+        builder.Property(e => e.Category)
+            .IsRequired()
+            .HasMaxLength(50);
+
         builder.Property(e => e.price)
             .IsRequired()
             .HasColumnType("decimal(18,2)");

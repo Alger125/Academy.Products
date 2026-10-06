@@ -10,6 +10,7 @@ public class Product : EntityBase<IntEntityId>, IAuditable
     // public int productId { get; set; }
     public string Name { get; set; } = string.Empty;
     public string description { get; set; } = string.Empty;
+    public string Category { get; set; } = string.Empty;
     public decimal price { get; set; }
     public int stock { get; set; }
     public string imageUrl { get; set; } = string.Empty;
