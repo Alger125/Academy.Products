@@ -1,4 +1,4 @@
-# 🛒 Academy.Products
+﻿# 🛒 Academy.Products
 
 Sistema de gestión de catálogo de productos construido con **.NET 8**, siguiendo los principios de **Clean Architecture** y el patrón **CQRS**.
 
@@ -280,10 +280,10 @@ Las funcionalidades a desarrollar según la épica:
 
 | # | Historia | Estado |
 |---|---|---|
-| 1 | Como **cliente**, quiero buscar productos por nombre o categoría | ⬜ Pendiente |
-| 2 | Como **cliente**, quiero filtrar productos por precio | ⬜ Pendiente |
-| 3 | Como **administrador**, quiero agregar/editar/eliminar productos | ⬜ Pendiente |
-| 4 | Como **cliente**, quiero visualizar productos con imagen, descripción y precio | ⬜ Pendiente |
+| 1 | Como **cliente**, quiero buscar productos por nombre o categoría | ✅ Completado |
+| 2 | Como **cliente**, quiero filtrar productos por precio | ✅ Completado |
+| 3 | Como **administrador**, quiero agregar/editar/eliminar productos | ✅ Completado |
+| 4 | Como **cliente**, quiero visualizar productos con imagen, descripción y precio | ✅ Completado |
 
 ---
 
@@ -374,3 +374,4 @@ La documentación Swagger estará en: `http://localhost:5021/swagger`
    ```
 
 4. **Abre un Pull Request** hacia `develop` con una descripción clara de qué hace y por qué.
+
